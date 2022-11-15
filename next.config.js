@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
+	reactStrictMode: true,
+	experimental: {
+		appDir: true
+	},
+	images: {
+		domains: ['links.papareact.com', 'platform-lookaside.fbsbx.com']
+	}
 }
